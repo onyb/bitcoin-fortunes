@@ -1,12 +1,12 @@
-# Bitcoin Fortunes
+# Bitcoin Fortunes  🍪
 
 <img src="https://ibin.co/w800/5TJc14k4ikX2.png" width="480px">
 
-If you love fortune cookies, and Bitcoin; this is for you.
+If you love fortune cookies and Bitcoin, this is for you.
 
 Start your morning with a fresh fortune about Bitcoin, randomly
 picked from a curated collection of interesting quotes, facts,
-email excerpts, and historical relics.
+email excerpts, and relics of the past.
 
 
 ### Prerequisites
@@ -34,10 +34,14 @@ $ cd bitcoin-fortunes
 $ fortune . | cowsay -e "BB" 
 ```
 
+**Note:** It's a good idea to do `git pull` on your local
+repo from time to time, in order to keep your fortunes
+collection up-to-date.
+
 ### Display a fortune when opening a new shell window
 
 Depending on the shell you use, add the following at the end of your
-`~/.bashrc` or `~/.zshrc file`.
+`~/.bashrc` or `~/.zshrc` file.
 
 ```sh
 fortune <repo path> | cowsay -e "BB"
@@ -47,6 +51,12 @@ fortune <repo path> | cowsay -e "BB"
 
 Pull requests adding new fortunes are most welcome, as long as they
 are relevant and interesting.
+
+Please add your contributions directly to the `bitcoin` file. After
+merging each PR, I'll manually rebuild the fortune database (`bitcoin.dat`),
+and push to the repo myself, in order to prevent shipping spam / unsafe
+content.
+
 
 ### License
 
