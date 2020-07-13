@@ -1,6 +1,6 @@
 # Bitcoin Fortunes
 
-<img src="https://ibin.co/w800/5TJK5GcMRUlo.png" width="480px">
+<img src="https://ibin.co/w800/5TJc14k4ikX2.png" width="480px">
 
 If you love fortune cookies, and Bitcoin; this is for you.
 
@@ -30,7 +30,8 @@ $ brew install fortune cowsay
 
 ```sh
 $ git clone https://github.com/onyb/bitcoin-fortunes
-$ fortune bitcoin-fortunes | cowsay -e "BB" 
+$ cd bitcoin-fortunes
+$ fortune . | cowsay -e "BB" 
 ```
 
 ### Display a fortune when opening a new shell window
