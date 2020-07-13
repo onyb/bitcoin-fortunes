@@ -83,3 +83,32 @@ have some left over for the next day.
 I AM HODLING
 
         -- bitcointalk user GameKyuubi, Dec 18 2013
+%
+To me it looks like an impressive job, although I'd wish for more comments. Now
+I've mostly studied the init, main, script and a bit of net modules. This is
+some powerful machinery.
+
+        -- Hal Finney, Dec 11 2010
+%
+[I've been working on this design] since 2007.  At some point I became convinced
+there was a way to do this without any trust required at all and couldn't resist
+to keep thinking about it.  Much more of the work was designing than coding.
+
+        -- Satoshi Nakamoto, Jun 17 2010
+%
+Being open source means anyone can independently review the code. If it was
+closed source, nobody could verify the security. I think it's essential for a
+program of this nature to be open source.
+
+        -- Satoshi Nakamoto, Dec 10 2009
+%
+We define an electronic coin as a chain of digital signatures. Each owner
+transfers the coin to the next by digitally signing a hash of the previous
+transaction and the public key of the next owner and adding these to the end of
+the coin. A payee can verify the signatures to verify the chain of ownership.
+
+        -- Satoshi Nakamoto, Oct 31 2010
+%
+For greater privacy, it's best to use bitcoin addresses only once.
+
+        -- Satoshi Nakamoto, Nov 25 2009
