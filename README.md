@@ -1,6 +1,6 @@
 # Bitcoin Fortunes  🍪
 
-<img src="https://ibin.co/w800/5TPoTMVxJoL9.png" width="480px">
+<img src="https://ibin.co/5TPqTwAFuilT.png" width="480px">
 
 If you love fortune cookies and Bitcoin, this is for you.
 
